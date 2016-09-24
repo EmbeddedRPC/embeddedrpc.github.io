@@ -2,7 +2,7 @@ var hierarchy =
 [
     [ "erpc::BaseStaticQueue", "classerpc_1_1_base_static_queue.html", [
       [ "erpc::StaticQueue< T, elementCount >", "classerpc_1_1_static_queue.html", null ],
-      [ "erpc::StaticQueue< erpc::MessageBuffer * >", "classerpc_1_1_static_queue.html", null ],
+      [ "erpc::StaticQueue< erpc::MessageBuffer *>", "classerpc_1_1_static_queue.html", null ],
       [ "erpc::StaticQueue< erpc::MessageBuffer, kInitCountMessageBuffers >", "classerpc_1_1_static_queue.html", null ]
     ] ],
     [ "erpc::ClientManager", "classerpc_1_1_client_manager.html", [
@@ -20,8 +20,6 @@ var hierarchy =
     [ "erpc::ManuallyConstructed< T >", "classerpc_1_1_manually_constructed.html", null ],
     [ "erpc::MessageBuffer", "classerpc_1_1_message_buffer.html", null ],
     [ "erpc::MessageBufferFactory", "classerpc_1_1_message_buffer_factory.html", [
-      [ "BasicMessageBufferFactory", "class_basic_message_buffer_factory.html", null ],
-      [ "BasicMessageBufferFactory", "class_basic_message_buffer_factory.html", null ],
       [ "BasicMessageBufferFactory", "class_basic_message_buffer_factory.html", null ],
       [ "erpc::RPMsgMessageBufferFactory", "classerpc_1_1_r_p_msg_message_buffer_factory.html", null ],
       [ "erpc::RPMsgMessageBufferFactory", "classerpc_1_1_r_p_msg_message_buffer_factory.html", null ],
@@ -42,7 +40,6 @@ var hierarchy =
       [ "erpc::FramedTransport", "classerpc_1_1_framed_transport.html", [
         [ "erpc::DspiMasterTransport", "classerpc_1_1_dspi_master_transport.html", null ],
         [ "erpc::DspiSlaveTransport", "classerpc_1_1_dspi_slave_transport.html", null ],
-        [ "erpc::LpuartTransport", "classerpc_1_1_lpuart_transport.html", null ],
         [ "erpc::SerialTransport", "classerpc_1_1_serial_transport.html", null ],
         [ "erpc::SpiMasterTransport", "classerpc_1_1_spi_master_transport.html", null ],
         [ "erpc::SpiSlaveTransport", "classerpc_1_1_spi_slave_transport.html", null ],

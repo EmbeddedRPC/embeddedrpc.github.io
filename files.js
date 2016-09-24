@@ -13,6 +13,7 @@ var files =
     [ "erpc_config_internal.h", "erpc__config__internal_8h_source.html", null ],
     [ "erpc_port.h", "erpc__port_8h.html", "erpc__port_8h" ],
     [ "erpc_server_setup.h", "erpc__server__setup_8h.html", "erpc__server__setup_8h" ],
+    [ "erpc_setup.h", "erpc__setup_8h_source.html", null ],
     [ "erpc_threading.h", "erpc__threading_8h.html", [
       [ "Guard", "classerpc_1_1_mutex_1_1_guard.html", "classerpc_1_1_mutex_1_1_guard" ]
     ] ],
@@ -29,7 +30,6 @@ var files =
         [ "m_mutex", "classerpc_1_1_inter_thread_buffer_transport.html#a0fe81cb63071c7d696cc2a3d0291df67", null ]
       ] ]
     ] ],
-    [ "lpuart_transport.h", "lpuart__transport_8h.html", null ],
     [ "manually_constructed.h", "manually__constructed_8h.html", null ],
     [ "message_buffer.h", "message__buffer_8h.html", [
       [ "Cursor", "classerpc_1_1_message_buffer_1_1_cursor.html", "classerpc_1_1_message_buffer_1_1_cursor" ]
@@ -50,5 +50,5 @@ var files =
     [ "transport_arbitrator.h", "transport__arbitrator_8h.html", [
       [ "PendingClientInfo", "structerpc_1_1_transport_arbitrator_1_1_pending_client_info.html", "structerpc_1_1_transport_arbitrator_1_1_pending_client_info" ]
     ] ],
-    [ "uart_transport.h", "uart__transport_8h.html", null ]
+    [ "uart_cmsis_transport.h", "uart__cmsis__transport_8h.html", null ]
 ];

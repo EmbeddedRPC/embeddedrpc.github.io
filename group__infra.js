@@ -6,7 +6,7 @@ var group__infra =
     [ "Client", "group__infra__client.html", "group__infra__client" ],
     [ "Serialization", "group__infra__codec.html", "group__infra__codec" ],
     [ "ERPC_VERSION", "group__infra.html#ga7530bff63dda78bc0cd733b88f231db8", null ],
-    [ "status_t", "group__infra.html#gaaabdaf7ee58ca7269bd4bf24efcde092", null ],
+    [ "erpc_status_t", "group__infra.html#ga5f8872e58f09a16d192bf664f9898651", null ],
     [ "_erpc_status", "group__infra.html#gacf5d3df9e7a78f29bc823b71f1529752", [
       [ "kErpcStatus_Success", "group__infra.html#ggacf5d3df9e7a78f29bc823b71f1529752aad3aa76a604b7bd6c3828c50b33dca33", null ],
       [ "kErpcStatus_Fail", "group__infra.html#ggacf5d3df9e7a78f29bc823b71f1529752a7374ea87a0dbfbeaf30d4cf48ac0bc14", null ],
@@ -20,6 +20,9 @@ var group__infra =
       [ "kErpcStatus_ConnectionFailure", "group__infra.html#ggacf5d3df9e7a78f29bc823b71f1529752ac02db82027bb8ac3d7e586681ed6eacb", null ],
       [ "kErpcStatus_ConnectionClosed", "group__infra.html#ggacf5d3df9e7a78f29bc823b71f1529752adc60b9b2440d0fcc2ca34938e3b25072", null ],
       [ "kErpcStatus_MemoryError", "group__infra.html#ggacf5d3df9e7a78f29bc823b71f1529752ad62371146340d07afd6c9d8f9b53aef8", null ],
-      [ "kErpcStatus_ServerIsDown", "group__infra.html#ggacf5d3df9e7a78f29bc823b71f1529752a1a761dcd55621eb0e6620f33d5aaa1cd", null ]
+      [ "kErpcStatus_ServerIsDown", "group__infra.html#ggacf5d3df9e7a78f29bc823b71f1529752a1a761dcd55621eb0e6620f33d5aaa1cd", null ],
+      [ "kErpcStatus_InitFailed", "group__infra.html#ggacf5d3df9e7a78f29bc823b71f1529752a6ba8baecca7387e53cdd77e7414a9bf4", null ],
+      [ "kErpcStatus_ReceiveFailed", "group__infra.html#ggacf5d3df9e7a78f29bc823b71f1529752a27228549b96649e28f58852f5f7ea203", null ],
+      [ "kErpcStatus_SendFailed", "group__infra.html#ggacf5d3df9e7a78f29bc823b71f1529752a6b5748a4c4dc3087a70c64386dc8d7b0", null ]
     ] ]
 ];

@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['pendingclientinfo',['PendingClientInfo',['../structerpc_1_1_transport_arbitrator_1_1_pending_client_info.html',1,'erpc::TransportArbitrator']]]
+  ['requestcontext',['RequestContext',['../classerpc_1_1_request_context.html',1,'erpc']]],
+  ['rpmsgmessagebufferfactory',['RPMsgMessageBufferFactory',['../classerpc_1_1_r_p_msg_message_buffer_factory.html',1,'erpc']]],
+  ['rpmsgrtostransport',['RPMsgRTOSTransport',['../classerpc_1_1_r_p_msg_r_t_o_s_transport.html',1,'erpc']]],
+  ['rpmsgtransport',['RPMsgTransport',['../classerpc_1_1_r_p_msg_transport.html',1,'erpc']]]
 ];

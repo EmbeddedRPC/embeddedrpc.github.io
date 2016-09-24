@@ -9,22 +9,22 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 88)">
 <title>erpc::StaticQueue&lt; T, elementCount &gt;</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-88 122.837,-88 122.837,4 -4,4"/>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="8.47656,-0.5 8.47656,-28.5 110.36,-28.5 110.36,-0.5 8.47656,-0.5"/>
 <text text-anchor="start" x="16.4766" y="-16.5" font-family="Helvetica,sans-Serif" font-size="10.00">erpc::StaticQueue&lt;</text>
 <text text-anchor="middle" x="59.4185" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00"> T, elementCount &gt;</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classerpc_1_1_base_static_queue.html" target="_top" xlink:title="Base class which implements static queue as ring buffer that operates on m_data type void*...">
 <polygon fill="white" stroke="black" points="0,-65.5 0,-83.5 118.837,-83.5 118.837,-65.5 0,-65.5"/>
 <text text-anchor="middle" x="59.4185" y="-71.5" font-family="Helvetica,sans-Serif" font-size="10.00">erpc::BaseStaticQueue</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M59.4185,-55.3209C59.4185,-46.747 59.4185,-36.6999 59.4185,-28.8428"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="55.9186,-55.4353 59.4185,-65.4353 62.9186,-55.4354 55.9186,-55.4353"/>
 </g>

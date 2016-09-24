@@ -1,8 +1,7 @@
 var erpc__transport__setup_8h =
 [
     [ "erpc_transport_t", "group__transport__setup.html#ga925aa73c3fc0da2a6f94ee65c4b108c0", null ],
-    [ "erpc_transport_uart_init", "group__transport__setup.html#gadd7ff97a669c8d087613f62c64246f27", null ],
-    [ "erpc_transport_lpuart_init", "group__transport__setup.html#gaeb0a8addfdc00ab13e1badf26414c742", null ],
+    [ "erpc_transport_cmsis_uart_init", "group__transport__setup.html#gadd5c1658590ea80c4c777c872ac4dd94", null ],
     [ "erpc_transport_serial_init", "group__transport__setup.html#ga1b147303de598800663eb584960d3450", null ],
     [ "erpc_transport_spi_master_init", "group__transport__setup.html#gacb323f539b6f76ae42c8a0bd1d531d1e", null ],
     [ "erpc_transport_spi_slave_init", "group__transport__setup.html#gaed6619b165642ced65cb37275f0838b9", null ],

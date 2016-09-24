@@ -9,21 +9,21 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 78)">
 <title>erpc::InterThreadBufferTransport</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-78 165.635,-78 165.635,4 -4,4"/>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-18.5 161.635,-18.5 161.635,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="80.8174" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">erpc::InterThreadBufferTransport</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classerpc_1_1_transport.html" target="_top" xlink:title="Abstract interface for transport layer. ">
 <polygon fill="white" stroke="black" points="39.0991,-55.5 39.0991,-73.5 122.536,-73.5 122.536,-55.5 39.0991,-55.5"/>
 <text text-anchor="middle" x="80.8174" y="-61.5" font-family="Helvetica,sans-Serif" font-size="10.00">erpc::Transport</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M80.8174,-45.1746C80.8174,-36.0945 80.8174,-25.5949 80.8174,-18.5496"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="77.3175,-45.2187 80.8174,-55.2188 84.3175,-45.2188 77.3175,-45.2187"/>
 </g>

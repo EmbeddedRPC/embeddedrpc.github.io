@@ -12,7 +12,6 @@ var annotated_dup =
       [ "DspiSlaveTransport", "classerpc_1_1_dspi_slave_transport.html", "classerpc_1_1_dspi_slave_transport" ],
       [ "FramedTransport", "classerpc_1_1_framed_transport.html", "classerpc_1_1_framed_transport" ],
       [ "InterThreadBufferTransport", "classerpc_1_1_inter_thread_buffer_transport.html", "classerpc_1_1_inter_thread_buffer_transport" ],
-      [ "LpuartTransport", "classerpc_1_1_lpuart_transport.html", "classerpc_1_1_lpuart_transport" ],
       [ "ManuallyConstructed", "classerpc_1_1_manually_constructed.html", "classerpc_1_1_manually_constructed" ],
       [ "MessageBuffer", "classerpc_1_1_message_buffer.html", "classerpc_1_1_message_buffer" ],
       [ "MessageBufferFactory", "classerpc_1_1_message_buffer_factory.html", "classerpc_1_1_message_buffer_factory" ],
