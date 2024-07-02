@@ -34,7 +34,7 @@
   <td id="projectlogo"><img alt="Logo" src="nxp_logo_small.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">eRPC API Reference
-   &#160;<span id="projectnumber">Rev. 1.12.0</span>
+   &#160;<span id="projectnumber">Rev. 1.13.0</span>
    </div>
    <div id="projectbrief">NXP Semiconductors</div>
   </td>
@@ -199,7 +199,8 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classerpc_1_1_codec.html#ae5ff4c694cc2107b206380fb923265ee">erpc::Codec</a>
 </li>
 <li>m_dev
-: <a class="el" href="classerpc_1_1_uart_transport.html#a43aad36870f61d93108cee6ca183efd8">erpc::UartTransport</a>
+: <a class="el" href="classerpc_1_1_m_b_o_x_transport.html#aa09447d65ea84179b4f33152a2009f09">erpc::MBOXTransport</a>
+, <a class="el" href="classerpc_1_1_uart_transport.html#a43aad36870f61d93108cee6ca183efd8">erpc::UartTransport</a>
 </li>
 <li>m_dst_addr
 : <a class="el" href="classerpc_1_1_r_p_msg_r_t_o_s_transport.html#aa57f102d300b1b0b0fdd6c67a294ba26">erpc::RPMsgRTOSTransport</a>
@@ -289,6 +290,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_receiveLock
 : <a class="el" href="classerpc_1_1_framed_transport.html#acd338c7149151c832c2932156dc100ca">erpc::FramedTransport</a>
+, <a class="el" href="classerpc_1_1_m_b_o_x_transport.html#ab3f410b9bd786161a9394c7f6f05e8cf">erpc::MBOXTransport</a>
 , <a class="el" href="classerpc_1_1_m_u_transport.html#ac6d0b82f41b743f76fd85a71a8a5bc9f">erpc::MUTransport</a>
 </li>
 <li>m_request
@@ -319,7 +321,8 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classerpc_1_1_m_u_transport.html#a662a98a6d90a5b8b1d056ef3253dab45">erpc::MUTransport</a>
 </li>
 <li>m_rxSemaphore
-: <a class="el" href="classerpc_1_1_m_u_transport.html#a3e2698860cf93ece52fc9359143bd2a5">erpc::MUTransport</a>
+: <a class="el" href="classerpc_1_1_m_b_o_x_transport.html#a5f75a0cb504d3e8878f028f06e03d7ad">erpc::MBOXTransport</a>
+, <a class="el" href="classerpc_1_1_m_u_transport.html#a3e2698860cf93ece52fc9359143bd2a5">erpc::MUTransport</a>
 , <a class="el" href="classerpc_1_1_uart_transport.html#a54ac23a6219e8311bbfedc53d20bf0ee">erpc::UartTransport</a>
 , <a class="el" href="classerpc_1_1_usb_cdc_transport.html#a5008016cb94e76a5f443c58f98cfb440">erpc::UsbCdcTransport</a>
 </li>
@@ -331,6 +334,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_sendLock
 : <a class="el" href="classerpc_1_1_framed_transport.html#a8dfd9730202307529a072ad1bc86a49a">erpc::FramedTransport</a>
+, <a class="el" href="classerpc_1_1_m_b_o_x_transport.html#a5a0b5aad590d721b3856f3fd12f7fd1a">erpc::MBOXTransport</a>
 , <a class="el" href="classerpc_1_1_m_u_transport.html#af107ee7b7ee5bdd016fd01077f682efc">erpc::MUTransport</a>
 </li>
 <li>m_sequence
@@ -404,15 +408,19 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classerpc_1_1_spi_slave_transport.html#a12ec60aa1622c00be1f7867ced0cdc46">erpc::SpiSlaveTransport</a>
 </li>
 <li>m_txSemaphore
-: <a class="el" href="classerpc_1_1_m_u_transport.html#a8a0bf39fb5fda8dc9c9b8f9c88b099f9">erpc::MUTransport</a>
+: <a class="el" href="classerpc_1_1_m_b_o_x_transport.html#aa287dfb696ac3bab4b40a2ca9d74ecf8">erpc::MBOXTransport</a>
+, <a class="el" href="classerpc_1_1_m_u_transport.html#a8a0bf39fb5fda8dc9c9b8f9c88b099f9">erpc::MUTransport</a>
 , <a class="el" href="classerpc_1_1_uart_transport.html#a07cc1d562cfb6164127c572af93de27a">erpc::UartTransport</a>
 , <a class="el" href="classerpc_1_1_usb_cdc_transport.html#a48dd7845afbf0c5fae9b1810841cae41">erpc::UsbCdcTransport</a>
 </li>
 <li>m_uartDrv
 : <a class="el" href="classerpc_1_1_uart_transport.html#a972cc0aca531b57b8216d4d6c5bbcefa">erpc::UartTransport</a>
 </li>
+<li>MBOXTransport()
+: <a class="el" href="classerpc_1_1_m_b_o_x_transport.html#a07777ea8270ac0f9c3439706e8e53a22">erpc::MBOXTransport</a>
+</li>
 <li>MessageBuffer()
-: <a class="el" href="classerpc_1_1_message_buffer.html#a7785b972a2ed8719a7afcd8f15c1b3ca">erpc::MessageBuffer</a>
+: <a class="el" href="classerpc_1_1_message_buffer.html#ada32e828c2edcd3546376d4d3ee90081">erpc::MessageBuffer</a>
 </li>
 <li>MessageBufferFactory()
 : <a class="el" href="classerpc_1_1_message_buffer_factory.html#a405ac0162a485e75bb4848cb65664cf4">erpc::MessageBufferFactory</a>

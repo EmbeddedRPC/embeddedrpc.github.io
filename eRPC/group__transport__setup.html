@@ -34,7 +34,7 @@
   <td id="projectlogo"><img alt="Logo" src="nxp_logo_small.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">eRPC API Reference
-   &#160;<span id="projectnumber">Rev. 1.12.0</span>
+   &#160;<span id="projectnumber">Rev. 1.13.0</span>
    </div>
    <div id="projectbrief">NXP Semiconductors</div>
   </td>
@@ -285,9 +285,21 @@ CMSIS UART transport setup</h2></td></tr>
 <tr class="memitem:gaad7f485bc1c822a1459595fa16dab364"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__transport__setup.html#gaad7f485bc1c822a1459595fa16dab364">erpc_transport_cmsis_uart_deinit</a> (<a class="el" href="group__transport__setup.html#ga925aa73c3fc0da2a6f94ee65c4b108c0">erpc_transport_t</a> transport)</td></tr>
 <tr class="memdesc:gaad7f485bc1c822a1459595fa16dab364"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deinitialize CMSIS UART transport.  <a href="#gaad7f485bc1c822a1459595fa16dab364">More...</a><br /></td></tr>
 <tr class="separator:gaad7f485bc1c822a1459595fa16dab364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Zephyr transports setup</h2></td></tr>
 <tr class="memitem:ga99eab2c1e203e70cc7dab8a6a4675fce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__transport__setup.html#ga925aa73c3fc0da2a6f94ee65c4b108c0">erpc_transport_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__transport__setup.html#ga99eab2c1e203e70cc7dab8a6a4675fce">erpc_transport_zephyr_uart_init</a> (void *dev)</td></tr>
 <tr class="memdesc:ga99eab2c1e203e70cc7dab8a6a4675fce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Zephyr UART transport.  <a href="#ga99eab2c1e203e70cc7dab8a6a4675fce">More...</a><br /></td></tr>
 <tr class="separator:ga99eab2c1e203e70cc7dab8a6a4675fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0a281ccf97a9dfb9e33cee9ccf3b5f12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__transport__setup.html#ga0a281ccf97a9dfb9e33cee9ccf3b5f12">erpc_transport_zephyr_uart_deinit</a> (<a class="el" href="group__transport__setup.html#ga925aa73c3fc0da2a6f94ee65c4b108c0">erpc_transport_t</a> transport)</td></tr>
+<tr class="memdesc:ga0a281ccf97a9dfb9e33cee9ccf3b5f12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deinitialize Zephyr UART transport.  <a href="#ga0a281ccf97a9dfb9e33cee9ccf3b5f12">More...</a><br /></td></tr>
+<tr class="separator:ga0a281ccf97a9dfb9e33cee9ccf3b5f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaafb5a8301ed38a10303ac7728790c8fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__transport__setup.html#ga925aa73c3fc0da2a6f94ee65c4b108c0">erpc_transport_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__transport__setup.html#gaafb5a8301ed38a10303ac7728790c8fe">erpc_transport_zephyr_mbox_init</a> (void *dev, void *tx_channel, void *rx_channel)</td></tr>
+<tr class="memdesc:gaafb5a8301ed38a10303ac7728790c8fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Zephyr MBOX transport.  <a href="#gaafb5a8301ed38a10303ac7728790c8fe">More...</a><br /></td></tr>
+<tr class="separator:gaafb5a8301ed38a10303ac7728790c8fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad954f094dd19374ad7ef334cf004ddd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__transport__setup.html#gad954f094dd19374ad7ef334cf004ddd3">erpc_transport_zephyr_mbox_deinit</a> (<a class="el" href="group__transport__setup.html#ga925aa73c3fc0da2a6f94ee65c4b108c0">erpc_transport_t</a> transport)</td></tr>
+<tr class="memdesc:gad954f094dd19374ad7ef334cf004ddd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deinitialize Zephyr MBOX transport.  <a href="#gad954f094dd19374ad7ef334cf004ddd3">More...</a><br /></td></tr>
+<tr class="separator:gad954f094dd19374ad7ef334cf004ddd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 USB CDC transport setup</h2></td></tr>
@@ -1587,6 +1599,98 @@ USB CDC transport setup</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return NULL or erpc_transport_t instance pointer. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga0a281ccf97a9dfb9e33cee9ccf3b5f12"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void erpc_transport_zephyr_uart_deinit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__transport__setup.html#ga925aa73c3fc0da2a6f94ee65c4b108c0">erpc_transport_t</a>&#160;</td>
+          <td class="paramname"><em>transport</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deinitialize Zephyr UART transport. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">transport</td><td>Transport which was initialized with init function. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gaafb5a8301ed38a10303ac7728790c8fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__transport__setup.html#ga925aa73c3fc0da2a6f94ee65c4b108c0">erpc_transport_t</a> erpc_transport_zephyr_mbox_init </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>tx_channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>rx_channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a Zephyr MBOX transport. </p>
+<p>Create a Zephyr MBOX transport instance, to be used on both the server and the client side.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>Zephyr MBOX device address. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">tx_channel</td><td>Zephyr MBOX transmit channel. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">rx_channel</td><td>Zephyr MBOX receive channel.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return NULL or erpc_transport_t instance pointer. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gad954f094dd19374ad7ef334cf004ddd3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void erpc_transport_zephyr_mbox_deinit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__transport__setup.html#ga925aa73c3fc0da2a6f94ee65c4b108c0">erpc_transport_t</a>&#160;</td>
+          <td class="paramname"><em>transport</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deinitialize Zephyr MBOX transport. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">transport</td><td>Transport which was initialized with init function. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -18,6 +18,7 @@ var annotated_dup =
       [ "LPI2cSlaveTransport", "classerpc_1_1_l_p_i2c_slave_transport.html", "classerpc_1_1_l_p_i2c_slave_transport" ],
       [ "LPSpiSlaveTransport", "classerpc_1_1_l_p_spi_slave_transport.html", "classerpc_1_1_l_p_spi_slave_transport" ],
       [ "ManuallyConstructed", "classerpc_1_1_manually_constructed.html", "classerpc_1_1_manually_constructed" ],
+      [ "MBOXTransport", "classerpc_1_1_m_b_o_x_transport.html", "classerpc_1_1_m_b_o_x_transport" ],
       [ "MessageBuffer", "classerpc_1_1_message_buffer.html", "classerpc_1_1_message_buffer" ],
       [ "MessageBufferFactory", "classerpc_1_1_message_buffer_factory.html", "classerpc_1_1_message_buffer_factory" ],
       [ "MessageLogger", "classerpc_1_1_message_logger.html", "classerpc_1_1_message_logger" ],

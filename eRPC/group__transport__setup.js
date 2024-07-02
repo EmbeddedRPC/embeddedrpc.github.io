@@ -41,6 +41,9 @@ var group__transport__setup =
     [ "erpc_transport_cmsis_uart_init", "group__transport__setup.html#gadd5c1658590ea80c4c777c872ac4dd94", null ],
     [ "erpc_transport_cmsis_uart_deinit", "group__transport__setup.html#gaad7f485bc1c822a1459595fa16dab364", null ],
     [ "erpc_transport_zephyr_uart_init", "group__transport__setup.html#ga99eab2c1e203e70cc7dab8a6a4675fce", null ],
+    [ "erpc_transport_zephyr_uart_deinit", "group__transport__setup.html#ga0a281ccf97a9dfb9e33cee9ccf3b5f12", null ],
+    [ "erpc_transport_zephyr_mbox_init", "group__transport__setup.html#gaafb5a8301ed38a10303ac7728790c8fe", null ],
+    [ "erpc_transport_zephyr_mbox_deinit", "group__transport__setup.html#gad954f094dd19374ad7ef334cf004ddd3", null ],
     [ "erpc_transport_usb_cdc_init", "group__transport__setup.html#ga34c5ca73771a6175e9ba1ffe40630879", null ],
     [ "erpc_transport_usb_cdc_deinit", "group__transport__setup.html#ga06f84d7e1c442699a9b721e2102e927d", null ]
 ];

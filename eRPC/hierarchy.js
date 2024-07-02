@@ -62,6 +62,7 @@ var hierarchy =
         [ "erpc::UsbCdcTransport", "classerpc_1_1_usb_cdc_transport.html", null ]
       ] ],
       [ "erpc::InterThreadBufferTransport", "classerpc_1_1_inter_thread_buffer_transport.html", null ],
+      [ "erpc::MBOXTransport", "classerpc_1_1_m_b_o_x_transport.html", null ],
       [ "erpc::MUTransport", "classerpc_1_1_m_u_transport.html", null ],
       [ "erpc::RPMsgLinuxTransport", "classerpc_1_1_r_p_msg_linux_transport.html", null ],
       [ "erpc::RPMsgRTOSTransport", "classerpc_1_1_r_p_msg_r_t_o_s_transport.html", null ],

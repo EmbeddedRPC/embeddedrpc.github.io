@@ -11,7 +11,8 @@
 <area shape="rect" id="node16" href="$erpc__uart__zephyr__transport_8hpp.html" title="erpc_uart_zephyr_transport.hpp" alt="" coords="2489,177,2695,203"/>
 <area shape="rect" id="node17" href="$erpc__usb__cdc__transport_8hpp.html" title="erpc_usb_cdc_transport.hpp" alt="" coords="2719,177,2905,203"/>
 <area shape="rect" id="node18" href="$erpc__inter__thread__buffer__transport_8hpp.html" title="erpc_inter_thread_buffer\l_transport.hpp" alt="" coords="1940,80,2100,121"/>
-<area shape="rect" id="node19" href="$erpc__mu__transport_8hpp.html" title="erpc_mu_transport.hpp" alt="" coords="2124,87,2279,114"/>
+<area shape="rect" id="node19" href="$erpc__mbox__zephyr__transport_8hpp.html" title="erpc_mbox_zephyr_transport.hpp" alt="" coords="2125,87,2339,114"/>
+<area shape="rect" id="node20" href="$erpc__mu__transport_8hpp.html" title="erpc_mu_transport.hpp" alt="" coords="2364,87,2519,114"/>
 <area shape="rect" id="node4" href="$erpc__dspi__master__transport_8hpp.html" title="erpc_dspi_master_transport.hpp" alt="" coords="1471,177,1679,203"/>
 <area shape="rect" id="node9" href="$erpc__rpmsg__tty__rtos__transport_8hpp.html" title="erpc_rpmsg_tty_rtos\l_transport.hpp" alt="" coords="1703,169,1844,211"/>
 <area shape="rect" id="node10" href="$erpc__serial__transport_8hpp.html" title="erpc_serial_transport.hpp" alt="" coords="891,177,1059,203"/>

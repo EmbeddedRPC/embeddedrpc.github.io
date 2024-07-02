@@ -34,6 +34,7 @@ var files =
     [ "erpc_lpspi_slave_transport.hpp", "erpc__lpspi__slave__transport_8hpp.html", null ],
     [ "erpc_manually_constructed.hpp", "erpc__manually__constructed_8hpp.html", "erpc__manually__constructed_8hpp" ],
     [ "erpc_mbf_setup.h", "erpc__mbf__setup_8h.html", "erpc__mbf__setup_8h" ],
+    [ "erpc_mbox_zephyr_transport.hpp", "erpc__mbox__zephyr__transport_8hpp.html", "erpc__mbox__zephyr__transport_8hpp" ],
     [ "erpc_message_buffer.hpp", "erpc__message__buffer_8hpp.html", [
       [ "Cursor", "classerpc_1_1_cursor.html", "classerpc_1_1_cursor" ]
     ] ],
